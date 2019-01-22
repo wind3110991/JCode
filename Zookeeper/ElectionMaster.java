@@ -5,6 +5,13 @@ package com.xxx.xxx.zktest;
  * @time 2018/12/28 17:37
  *
  * 简单实现zookeeper的主从选举
+ 
+         <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.6</version>
+        </dependency>
+
  **/
 
 import org.apache.zookeeper.*;
